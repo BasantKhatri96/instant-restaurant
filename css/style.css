@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.25%;
+}
+body {
+  font-family: montserrat, Arial, sans-serif;
+  color: #555;
+  font-weight: 500;
+}
+/* REUSABLE COMPONENTS */
+.container {
+  max-width: 120rem;
+  margin-left: 0 auto;
+  padding: 2rem;
+}
+.btn {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #faf0e6;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.8rem 1rem;
+  border: 1px solid #faf0e6;
+  transition: all 0.5s;
+}
+/* SECTION HERO */
+.section-hero {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5) url(/img/hero-background-image.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  position: relative;
+}
+
+.main-nav {
+  color: #faf0e6;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem;
+  padding-left: 27rem;
+
+  color: #faf0e6;
+}
+.logo {
+  font-family: Mrs Sheppards;
+  font-size: 6rem;
+  margin-right: 2rem;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  vertical-align: center;
+  transition: all 0.5s;
+  color: #faf0e6;
+}
+.nav-link:hover {
+  border-bottom: 1px solid #faf0e6;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #faf0e6;
+}
+.hero-heading {
+  font-size: 6rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.hero-description {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.cta-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 15rem;
+  letter-spacing: 4px;
+}
+.btn:hover {
+  color: black;
+  background-color: #faf0e6;
+}
