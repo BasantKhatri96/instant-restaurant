@@ -30,7 +30,7 @@ body {
 /* SECTION HERO */
 .section-hero {
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5) url(/img/hero-background-image.jpg);
+  background: rgba(0, 0, 0, 0.5) url(./img/hero-background-image.jpg);
   background-size: cover;
 
   background-repeat: no-repeat;
